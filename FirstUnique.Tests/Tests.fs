@@ -7,6 +7,7 @@ open Xunit
 [<Theory>]
 [<InlineDataAttribute("abc", 'a')>]
 [<InlineDataAttribute("aabc", 'b')>]
+[<InlineDataAttribute("aabbc", 'c')>]
 [<InlineDataAttribute("abcdefghijklmnopqrstuvwxyz", 'a')>]
 [<InlineDataAttribute("abcdefghijklmnopqrstuvwxyza", 'b')>]
 [<InlineDataAttribute("abcdefghijklmnopqrstuvwxyzab", 'c')>]
